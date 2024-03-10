@@ -8,8 +8,6 @@ body, html {
   color: white;
 }
 
-
-
 .backtotop {
     display: inline-block;
     background-color: #FF9800;
@@ -37,6 +35,8 @@ body, html {
 .backtotop:hover {
     cursor: pointer;
     background-color: #333;
+    width: 55px;
+    height: 55px;
   }
 .backtotop:active {
     background-color: #555;
@@ -49,9 +49,8 @@ body, html {
 .topnav {
     overflow: hidden;
     position: fixed;
-    top: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #022a7a;
     z-index: 2;
   }
 
@@ -59,15 +58,16 @@ body, html {
   .topnav a {
     float: right;
     display: block;
-    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 24px;
+    color: rgb(185, 185, 185);
+    font-size: 20px;
   }
 
   .topnav a:hover {
-    color: #1470AF;
+    color: white;
+    font-size: 24px;
     text-shadow:0px 0px 30px white;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
@@ -77,12 +77,12 @@ body, html {
   
   .topnav a.jc{
     float: left;
-    background-color: white;
-    color: black;
+    background-color: #022a7a;
+    color: rgb(185, 185, 185);
   }
 
   .topnav a.jc:hover {
-    color: #1470AF;
+    color: white;
     text-shadow:0px 0px 30px white;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
@@ -266,6 +266,7 @@ aside{
 
 .home .learnMore:hover{
     background-color: #1470AF;
+    font-size: 25px;
     color:white;
 }
 
